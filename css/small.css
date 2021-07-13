@@ -67,26 +67,36 @@
     flex-direction: column;
   }
   .anuncio11{
-    width: 70%;
+    width: 80%;
+    padding-right: 0;
   }
   .anuncio{
     position: relative;
     width: 100%;
+    padding-left: 0;
   }
-  
-  .anuncio1, .anuncio2, .anuncio3, .join {
-  font-size: .8rem;
+  .event {
+text-align: center;
   }
-  .wea, .w1, .w2, .w3 {
-    font-size: .3rem;
+  .anuncio1, .anuncio2, .anuncio3 {
+  font-size: 1.3rem;
+  }
+  .wea p, .w1 p, .w2 p, .w3 p, .tempe p{
+    font-size: 1.1rem;
   }
   .temp1, p{
     font-size: .5rem;
   }
+  .goals p{
+    font-size: .9rem;
+  }
   .temp1 p{
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .three img{
-    width: 8rem;
+    width: 0;
+  }
+  .fabinfo2 p, .fabinfo1 p, .fabinfo3 p{
+    font-size: .9rem;
   }
   }
