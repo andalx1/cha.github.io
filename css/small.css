@@ -99,4 +99,7 @@ text-align: center;
   .fabinfo2 p, .fabinfo1 p, .fabinfo3 p{
     font-size: .9rem;
   }
+  .contact p, .copyright p{
+    font-size: .9rem;
+  }
   }
