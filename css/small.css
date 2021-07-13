@@ -62,4 +62,33 @@
     font-size: .6rem;
     text-align: center;
   }
+  .landscape{
+    background: chocolate;
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+  .anuncio11{
+    position: relative;
+    background: cornflowerblue;
+  }
+  .anuncio{
+    position: relative;
+    background-color: cyan;
+    width: 90%;
+  }
+  
+  .anuncio1, .anuncio2, .anuncio3, .join {
+  font-size: .4rem;
+  }
+  .wea, .w1, .w2, .w3 {
+    font-size: .4rem;
+  }
+  .temp1, p{
+    font-size: .5rem;
+  }
+  .three img{
+    width: 10px;
+  }
   }
