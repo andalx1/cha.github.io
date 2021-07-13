@@ -26,10 +26,11 @@
       font-family: 'Syncopate', sans-serif;
       display: grid;
       grid-template-columns: 15% 1fr 1fr 1fr 15%;
-      grid-template-rows: repeat(12, auto);
-      grid-template-areas:"logo     logo   logo   logo   logo"
-                          "chamname     chamname   chamname   chamname   chamname"
+      grid-template-rows: repeat(13, auto);
+      grid-template-areas:"logo"
+                          "chamname"
                           "chamenu     chamenu   chamenu   chamenu   chamenu"
+                          "anuncio"
                           "landscape   landscape   landscape   landscape     landscape"
                           "event   event   event   event   event"
                           "purpose   purpose   purpose   purpose   purpose"
@@ -41,6 +42,9 @@
                           "footer   footer     footer      footer    footer"
                           "footer2   footer2     footer2      footer2    footer2";
                           ;
+    }
+    .contehome .anuncio{
+      grid-area: anuncio;
     }
     .titulo{
       font-size: .5rem;
