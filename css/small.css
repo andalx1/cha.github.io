@@ -66,29 +66,30 @@
     background: chocolate;
     display: flex;
     flex-direction: column;
-    
-
   }
   .anuncio11{
-    position: relative;
-    background: cornflowerblue;
+    background: rgb(247, 248, 250);
+    width: 70%;
   }
   .anuncio{
     position: relative;
     background-color: cyan;
-    width: 90%;
+    width: 100%;
   }
   
   .anuncio1, .anuncio2, .anuncio3, .join {
-  font-size: .4rem;
+  font-size: .6rem;
   }
   .wea, .w1, .w2, .w3 {
-    font-size: .4rem;
+    font-size: .3rem;
   }
   .temp1, p{
     font-size: .5rem;
   }
+  .temp1 p{
+    font-size: 2rem;
+  }
   .three img{
-    width: 10px;
+    width: 8rem;
   }
   }
