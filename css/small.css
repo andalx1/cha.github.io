@@ -27,10 +27,9 @@
       display: grid;
       grid-template-columns: 15% 1fr 1fr 1fr 15%;
       grid-template-rows: repeat(13, auto);
-      grid-template-areas:"logo"
-                          "chamname"
+      grid-template-areas:"logo    logo    logo    logo    logo"
+                          "chamname    chamname   chamname    chamname   chamname"
                           "chamenu     chamenu   chamenu   chamenu   chamenu"
-                          "anuncio"
                           "landscape   landscape   landscape   landscape     landscape"
                           "event   event   event   event   event"
                           "purpose   purpose   purpose   purpose   purpose"
@@ -41,7 +40,6 @@
                           "fab3   fab3   fab3   fab3    fab3"
                           "footer   footer     footer      footer    footer"
                           "footer2   footer2     footer2      footer2    footer2";
-                          ;
     }
     .contehome .anuncio{
       grid-area: anuncio;
