@@ -41,6 +41,9 @@
                           "footer   footer     footer      footer    footer"
                           "footer2   footer2     footer2      footer2    footer2";
     }
+    .logo {
+      padding: 1rem;
+    }
     .contehome .anuncio{
       grid-area: anuncio;
     }
