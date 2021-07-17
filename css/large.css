@@ -274,3 +274,57 @@ justify-content:space-around;
 .temp1{
   font-size: 5rem;
 }
+/*itagui gggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+.itagui {
+  background: rgb(131, 181, 193);
+  font-family: 'Syncopate', sans-serif;
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr 1fr 15%;
+  grid-template-rows: repeat(8, auto);
+  grid-template-areas:"logo     chamname   chamname   chamenu   chamenu"
+                      "space   ita   ita   landscape     space1"
+                      "space   event   event   event   space1"
+                      "space   purpose   purpose   purpose   space1"
+                      "space   goals   goals   goals    space1"
+                      "space   compinf    compinf   compinf   space1"
+                      "space   fab1   fab2   fab3    space1"
+                      "footer   footer     footer      footer2    footer2";
+}
+.itagui .logo {
+  background: rgb(253, 43, 43);
+  grid-area: logo;
+  border-radius: 0 0 0 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.itagui .chamname {
+  background: rgb(253, 43, 43);
+  grid-area: chamname;
+}
+.itagui .chamenu {
+  background: rgb(253, 43, 43);
+  grid-area: chamenu;
+}
+.itagui .space {
+  background: #fcf9f9;
+  grid-area: space;
+}
+.itagui .space1 {
+  background: #fcf9f9;
+  grid-area: space1;
+}
+.itagui .footer{
+  background-color: #303031;
+  padding: 2.5rem 0rem 2.5rem 11rem;
+  color: white;
+  grid-area:footer;
+  text-decoration: none;
+  line-height: 2.5rem;
+}
+.itagui .footer2{
+  background-color: #303031;
+  padding: 4rem 8rem 0rem 0rem;
+  color: white;
+  grid-area:footer2;
+}

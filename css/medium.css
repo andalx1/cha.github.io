@@ -37,6 +37,7 @@
 .anuncio11{
   width: 90%;
   height: 20%;
+  line-height: 0;
 }
 .three img{
   width:13rem;
@@ -45,7 +46,7 @@
   font-size: 3rem;
 }
 .anu1{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .anuncio1{
   font-size: 1.3rem;

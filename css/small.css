@@ -72,6 +72,7 @@
   .anuncio11{
     width: 80%;
     padding-right: 0;
+    line-height: 1rem;
   }
   .anuncio{
     position: relative;
