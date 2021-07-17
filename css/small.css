@@ -86,6 +86,7 @@ text-align: center;
   }
   .wea p, .w1 p, .w2 p, .w3 p, .tempe p{
     font-size: 1.1rem;
+    margin: 0;
   }
   .temp1, p{
     font-size: .5rem;
