@@ -18,7 +18,7 @@
 
 
 <body>
-    <div class="join">
+    <div class="joinus">
 
         <div class="logo">
             <div class="pic1"><img  src="images/logo2.png"/></div>
@@ -50,10 +50,10 @@
         <div class="contenido">
             <form method="GET" action="thanks.html">
                 <div class="form">
-                            <fieldset>
-                                        <ul class="formbox">
+                    <fieldset>
+                        <ul class="formbox">
                                         <li>
-                                            <h3>Personal Information</h3>
+                                            <h3>PERSONAL INFORMATION</h3>
                                         </li> 
                                             
                                         <li>
@@ -71,70 +71,50 @@
                                             <input type="tel" id="tel" name="tel" required="">        
                                             </label>
                                         </li>
-                                        <li>
-                                            <label for="zip">Zipcode <span class="mandentory">*</span>
-                                            <input type="number" id="zip" name="zip" required="">
-                                            </label>
-                                        </li>
-                                        </ul>
-                            </fieldset><br>
-                      <fieldset>
-                          <ul class="formbox">
-                          <li>
-                          <h3> Storm Information</h3>
-                          </li>
-                     
-                          <li>
-                              <label for="stormdate">Storm date
-                              <input type="date" id="stormdate" name="stormdate">
-                              </label>
-                          </li>
-                          <li>
-                              <label for="storm">Storm type 
-                              <input list="storm-type" id="storm" name="storm">
-                              
-                              <datalist id="storm-type">
-                                  <option value="Flash Flood"></option>
-                                  <option value="Hail"></option>
-                                  <option value="Hurricane"></option>
-                                  <option value="Thunderstorm"></option>
-                                  <option value="Tornado"></option>
-                              </datalist> 
-                          </label>
-                          </li>
-                          <li>
-                             
-                              <label for="severity">Storm level 
-                                 
-                              <input type="range" id="severity" name="severity" value="1" min="0" max="10" step="1"></label>
-                              <div class="level">
-                              <span>from 0</span>  - <span>10</span>
-                              </div>
-                              
-                          </li>
-                          <li>
-                              <label for="region">Storm region
-                              <select id="region" name="region">
-                                  <option disabled="" selected="">Select region ...</option>
-                                  <option value="Preston">Preston</option>
-                                  <option value="Soda Springs">Soda Springs</option>
-                                  <option value="Fish Haven">Fish Haven</option> 
-                          </select>
-                          </label>
-                          </li>
-                            </ul> 
-                        </fieldset><br>
-              
-                        <fieldset>
-                            <ul class="sbs">
+                        </ul>
+                    </fieldset><br>
+
+                <div>
+                    <fieldset>
+                        <ul class="formbox">
+                        <li>
+                          <h3> BUSINESS INFORMATION</h3>
+                        </li>
+                        <li>
+                            <label for="name"> Business name <span class="mandentory">*</span>
+                            <input type="text" id="name" name="name" required="" minlength="5" pattern="[A-Za-z">
+                            </label>
+                        </li>
+                        <li>
+                            <label for="name"> Business address <span class="mandentory">*</span>
+                            <input type="text" rows="10" id="name" name="name" required="" minlength="5" pattern="[A-Za-z">
+                            </label>
+                        </li>
+                        <li>
+                            <label for="email">Business Email
+                            <input type="email" id="email" name="email" placeholder="example@email.com">
+                            </label>
+                        </li>
+                        <li>
+                            <label id="comment">Business Description
+                            <textarea name="comentarios" rows="10" cols="100" >Write here...</textarea>
+                            </label>
+                        </li>      
+                        </ul>
+                    </fieldset><br>
+ 
+
+                    <fieldset>
                                 <li>
-                                <h3> Additional Information</h3>
+                                <h3> Memebership Level Selection</h3>
                                 </li>   
-                                        <li>
-                                    <label>Are you in danger?</label>
-                                    <label><input type="radio" name="answer" value="yes">Yes</label> 
-                                    <label><input type="radio" name="answer" value="maybe">Maybe</label>
-                                    <label><input type="radio" name="answer" value="no">No</label>
+                                <li>
+                                    <label>What kind of level do you prefer?</label>
+
+                                    <label><input type="radio" name="answer" value="yes"> Non-profit </label> 
+                                    <label><input type="radio" name="answer" value="maybe"> Bronze </label>
+                                    <label><input type="radio" name="answer" value="no"> Silver </label>
+                                    <label><input type="radio" name="answer" value="no"> Gold</label>
                                 </li>
                     
                                 <li>
@@ -143,17 +123,11 @@
                                     </label>
                                 </li>       
                                 </ul>
-                        </fieldset><br>
+                    </fieldset><br>
               
-                        <div class="sendbtn">
-                            <label>
-                              <input type="submit" name="submit" value="REPORT" class="send">
-                           </label>
-                         </div>                   
+                                       
               </div>         
-             </form>
-
-    
+            </form>
         </div> 
 
             

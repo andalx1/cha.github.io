@@ -423,9 +423,6 @@ justify-content:space-around;
 .ita1 h2, .ita2 h2, .ita3 h2, .ita4 h2{
   padding-left: 3rem;
 }
-.itaeve picture{
-  
-}
 .eve1 img, .eve2 img, .eve3 img{
   width:100%;
   height: 50%;
@@ -437,7 +434,7 @@ justify-content:space-around;
   padding: 1rem;
 }
 /*----join------------------------------------------------------------------*/
-.join {
+.joinus {
   background: rgb(131, 181, 193);
   font-family: 'Josefin', sans-serif;
   display: grid;
@@ -445,14 +442,14 @@ justify-content:space-around;
   grid-template-rows: repeat(8, auto);
   grid-template-areas:"logo     chamname   chamname   chamenu   chamenu"
                      "space   joinfo   joinfo   joinfo   space1"
-                      "space   ita1   ita1   ita2     space1"
+                      "space   contenido   contenido contenido     space1"
                       "space   ita3   ita4   ita4   space1"
                       "space   title2   title2   title2    space1"
                       "space   itaeve1    itaeve2   itaeve3   space1"
                       "space   fab1   fab2   fab3    space1"
                       "footer   footer     footer      footer2    footer2";
 }
-.join .logo {
+.joinus .logo {
   background: rgb(253, 43, 43);
   grid-area: logo;
   border-radius: 0 0 0 8rem;
@@ -460,21 +457,21 @@ justify-content:space-around;
   align-items: center;
   justify-content: center;
 }
-.join .chamname {
+.joinus .chamname {
   background: rgb(253, 43, 43);
   grid-area: chamname;
 }
-.join .chamenu {
+.joinus .chamenu {
   background: rgb(253, 43, 43);
   grid-area: chamenu;
 }
-.join .space {
+.joinus .space {
   grid-area: space;
 }
-.join .space1 {
+.joinus .space1 {
   grid-area: space1;
 }
-.join .joinfo {
+.joinus .joinfo {
   box-shadow: 2px 2px 9px solid black;
   background-color: #802727;
   color: #312c4e;
@@ -484,76 +481,10 @@ justify-content:space-around;
   border-radius: .5rem;
   padding: .2rem;
 }
-.itagui .ita2 {
-  box-shadow: 2px 2px 9px solid black;
-  background-color: #eeeded;
-  color: #312c4e;
-  grid-area: ita2;
-  margin: .3rem;
-  box-shadow: 5px 5px 15px black;
-  border-radius: .5rem;
-  padding: .2rem;
+.joinus .contenido{
+  grid-area: contenido;
 }
-.itagui .ita3 {
-  box-shadow: 2px 2px 9px solid black;
-  background-color: #eeeded;
-  color: #312c4e;
-  grid-area: ita3;
-  margin: .3rem;
-  box-shadow: 5px 5px 15px black;
-  border-radius: .5rem;
-  padding: .2rem;
-}
-.itagui .ita4 {
-  box-shadow: 2px 2px 9px solid black;
-  background-color: #eeeded;
-  color: #312c4e;
-  grid-area: ita4;
-  margin: .3rem;
-  box-shadow: 5px 5px 15px black;
-  border-radius: .5rem;
-  padding: .2rem;}
-.itagui .title{
-  grid-area: title;
-  padding: 3rem;
-}
-.itagui .title2{
-  grid-area: title2;
-  padding: 3rem;
-}
-.itagui .itaeve1{
-  grid-area: itaeve1;
-  box-shadow: 2px 2px 9px solid black;
-  background-color: #eeeded;
-  color: #312c4e;
-  margin: .3rem;
-  box-shadow: 5px 5px 15px black;
-  border-radius: .5rem;
-  padding: .2rem;
-}
-.itagui .itaeve2{
-  grid-area: itaeve2;
-  box-shadow: 2px 2px 9px solid black;
-  background-color: #eeeded;
-  color: #312c4e;
-  margin: .3rem;
-  box-shadow: 5px 5px 15px black;
-  border-radius: .5rem;
-  padding: .2rem;
-
-}
-.itagui .itaeve3{
-  grid-area: itaeve3;
-  box-shadow: 2px 2px 9px solid black;
-  background-color: #eeeded;
-  color: #312c4e;
-  margin: .3rem;
-  box-shadow: 5px 5px 15px black;
-  border-radius: .5rem;
-  padding: .2rem;
-
-}
-.join .footer{
+.joinus .footer{
   font-family: 'Syncopate', sans-serif;
   background-color: #303031;
   padding: 2.5rem 0rem 2.5rem 11rem;
@@ -562,7 +493,7 @@ justify-content:space-around;
   text-decoration: none;
   line-height: 2.5rem;
 }
-.join .footer2{
+.joinus .footer2{
   font-family: 'Syncopate', sans-serif;
   background-color: #303031;
   padding: 4rem 8rem 0rem 0rem;
@@ -571,8 +502,4 @@ justify-content:space-around;
 }
 
 .contenido {
-  color: #f7b425;
-  width: 100%;
-  margin: auto;
-  padding: 40px 0;
 }
