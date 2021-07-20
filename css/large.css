@@ -473,7 +473,7 @@ justify-content:space-around;
 }
 .joinus .joinfo {
   box-shadow: 2px 2px 9px solid black;
-  background-color: #e6e3e3;
+  background-color: white;
   color: #312c4e;
   grid-area: joinfo;
   margin: .3rem;
@@ -572,7 +572,7 @@ justify-content:space-around;
 }
 .directory .solla {
   padding: 1rem;
-  background: gold;
+  background: white;
   grid-area: solla;
   display: flex;
   flex-direction: column;
@@ -583,7 +583,7 @@ justify-content:space-around;
 }
 .directory .auteco {
   padding: 1rem;
-  background: gold;
+  background: white;
   grid-area: auteco;
   display: flex;
   flex-direction: column;
@@ -591,31 +591,60 @@ justify-content:space-around;
 
 }
 .directory .ternium {
-  padding: 1rem;
-  background: gold;
   grid-area: ternium;
+  padding: 1rem;
+  background: white;
   display: flex;
   flex-direction: column;
   margin: .3rem;
-
 }
-.directory . {
-  grid-area: ;
+.directory .union {
+  grid-area: union;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
 }
-.directory . {
-  grid-area: ;
+.directory .euro {
+  grid-area: euro;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
 }
-.directory . {
-  grid-area: ;
+.directory .soberana {
+  grid-area: soberana;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
 }
-.directory . {
-  grid-area: ;
+.directory .empaques {
+  grid-area: empaques;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
 }
-.directory . {
-  grid-area: ;
+.directory .provecol {
+  grid-area: provecol;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
 }
-.directory . {
-  grid-area: ;
+.directory .text {
+  grid-area: text;
+  padding: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
 }
 .directory .footer{
   font-family: 'Syncopate', sans-serif;
