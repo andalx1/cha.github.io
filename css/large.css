@@ -277,7 +277,7 @@ justify-content:space-around;
 /*itagui gggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/
 .itagui {
   background: rgb(131, 181, 193);
-  font-family: 'Josefin', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   display: grid;
   grid-template-columns: 15% 1fr 1fr 1fr 15%;
   grid-template-rows: repeat(8, auto);
@@ -436,7 +436,7 @@ justify-content:space-around;
 /*----join------------------------------------------------------------------*/
 .joinus {
   background: rgb(131, 181, 193);
-  font-family: 'Josefin', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   display: grid;
   grid-template-columns: 15% 1fr 1fr 1fr 15%;
   grid-template-rows: repeat(8, auto);
@@ -480,6 +480,7 @@ justify-content:space-around;
   box-shadow: 5px 5px 15px black;
   border-radius: .5rem;
   padding: 2rem;
+  margin-top: 1.5rem;
 }
 .joinus .contenido{
   grid-area: contenido;
@@ -501,7 +502,7 @@ justify-content:space-around;
   color: white;
   grid-area:footer2;
 }
-.box3{
+.box3, .box2, .box1{
   background-color: #e6e3e3;
   box-shadow: 2px 2px 9px solid black;
   color: #312c4e;
@@ -510,7 +511,7 @@ justify-content:space-around;
   border-radius: .5rem;
   padding: 2rem;
 }
-.box3 li{
+.box3 li, .box2 li, .box1 li{
   list-style: none;
 }
 .cuadros {
@@ -519,15 +520,117 @@ justify-content:space-around;
 }
 .cuadros div{
   width: 12rem;
-  height: 20rem;
+  height: 35rem;
   background: rgb(32, 25, 49);
   margin: .4rem;
   color: #f7f6fa;
   padding: .5rem;
   border-radius: .5rem;
   font-size: .8rem;
+}
+.cuadros h3, .cuadros h4{
+  text-align: center;
+}
+
+.contenido{
+  margin-top: 1.5rem;
+}
+/*--------directory----------------------------------------------------------------*/
+.directory {
+  background: rgb(131, 181, 193);
+  font-family: 'Josefin Sans', sans-serif;
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr 1fr 15%;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:"logo    chamname   chamname   chamenu   chamenu"
+                      "space   solla      auteco     ternium   space1"
+                      "space   union      euro       soberana  space1"
+                      "space   empaques   provecol   text      space1"
+                      "footer  footer     footer      footer2    footer2";
+}
+.directory .logo {
+  background: rgb(253, 43, 43);
+  grid-area: logo;
+  border-radius: 0 0 0 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.directory .chamname {
+  background: rgb(253, 43, 43);
+  grid-area: chamname;
+}
+.directory .chamenu {
+  background: rgb(253, 43, 43);
+  grid-area: chamenu;
+}
+.directory .space {
+  grid-area: space;
+}
+.directory .space1 {
+  grid-area: space1;
+}
+.directory .solla {
+  padding: 1rem;
+  background: gold;
+  grid-area: solla;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
+}
+.ima1 img{
+  width: 100%;
+}
+.directory .auteco {
+  padding: 1rem;
+  background: gold;
+  grid-area: auteco;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
 
 }
-.cuadros h3{
-  text-align: center;
+.directory .ternium {
+  padding: 1rem;
+  background: gold;
+  grid-area: ternium;
+  display: flex;
+  flex-direction: column;
+  margin: .3rem;
+
+}
+.directory . {
+  grid-area: ;
+}
+.directory . {
+  grid-area: ;
+}
+.directory . {
+  grid-area: ;
+}
+.directory . {
+  grid-area: ;
+}
+.directory . {
+  grid-area: ;
+}
+.directory . {
+  grid-area: ;
+}
+.directory .footer{
+  font-family: 'Syncopate', sans-serif;
+  background-color: #303031;
+  padding: 2.5rem 0rem 2.5rem 11rem;
+  color: white;
+  grid-area:footer;
+  text-decoration: none;
+
+  line-height: 2.5rem;
+}
+.directory .footer2{
+  font-family: 'Syncopate', sans-serif;
+  background-color: #303031;
+  padding: 4rem 8rem 0rem 0rem;
+  color: white;
+  grid-area:footer2;
 }
