@@ -663,3 +663,61 @@ justify-content:space-around;
   color: white;
   grid-area:footer2;
 }
+.solla h2{
+  text-align: center;
+}
+/*-------------------contact------------------------------------------------------*/
+.contact {
+  background: rgb(131, 181, 193);
+  font-family: 'Josefin Sans', sans-serif;
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr 1fr 15%;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:"logo    chamname   chamname   chamenu   chamenu"
+                      "space   continf      map     map   space1"
+                      "footer  footer     footer      footer2    footer2";
+}
+.contact .logo {
+  background: rgb(253, 43, 43);
+  grid-area: logo;
+  border-radius: 0 0 0 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .chamname {
+  background: rgb(253, 43, 43);
+  grid-area: chamname;
+}
+.contact .chamenu {
+  background: rgb(253, 43, 43);
+  grid-area: chamenu;
+}
+.contact .space {
+  grid-area: space;
+}
+.contact .space1 {
+  grid-area: space1;
+}
+.contact .continf {
+  grid-area: continf;
+}
+.contact .map {
+  grid-area: map;
+}
+.contact .footer{
+  font-family: 'Syncopate', sans-serif;
+  background-color: #303031;
+  padding: 2.5rem 0rem 2.5rem 11rem;
+  color: white;
+  grid-area:footer;
+  text-decoration: none;
+  line-height: 2.5rem;
+}
+.contact .footer2{
+  font-family: 'Syncopate', sans-serif;
+  background-color: #303031;
+  padding: 4rem 8rem 0rem 0rem;
+  color: white;
+  grid-area:footer2;
+}
