@@ -473,13 +473,13 @@ justify-content:space-around;
 }
 .joinus .joinfo {
   box-shadow: 2px 2px 9px solid black;
-  background-color: #802727;
+  background-color: #e6e3e3;
   color: #312c4e;
   grid-area: joinfo;
   margin: .3rem;
   box-shadow: 5px 5px 15px black;
   border-radius: .5rem;
-  padding: .2rem;
+  padding: 2rem;
 }
 .joinus .contenido{
   grid-area: contenido;
@@ -491,6 +491,7 @@ justify-content:space-around;
   color: white;
   grid-area:footer;
   text-decoration: none;
+
   line-height: 2.5rem;
 }
 .joinus .footer2{
@@ -500,6 +501,33 @@ justify-content:space-around;
   color: white;
   grid-area:footer2;
 }
+.box3{
+  background-color: #e6e3e3;
+  box-shadow: 2px 2px 9px solid black;
+  color: #312c4e;
+  margin: .3rem;
+  box-shadow: 5px 5px 15px black;
+  border-radius: .5rem;
+  padding: 2rem;
+}
+.box3 li{
+  list-style: none;
+}
+.cuadros {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.cuadros div{
+  width: 12rem;
+  height: 20rem;
+  background: rgb(32, 25, 49);
+  margin: .4rem;
+  color: #f7f6fa;
+  padding: .5rem;
+  border-radius: .5rem;
+  font-size: .8rem;
 
-.contenido {
+}
+.cuadros h3{
+  text-align: center;
 }

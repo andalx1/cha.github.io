@@ -45,36 +45,43 @@
         <div class="space"></div>
         <div class="space1"></div>
 
-        <div class="joinfo"><h2>join</h2></div>
-
+        <div class="joinfo">
+            <h2>Join Now!</h2>
+            <p>Here are some great reasons to join Itagui Chamber of Commerce:</p>
+            <p>Make business contacts: 
+                The chamber initiates numerous monthly business-to-business opportunities for networking and connecting with other local business professionals.</p>
+            <p>Receive chamber newsletters: Newsletters provide new member information, interesting information about operating a local business, articles about the local business community, and details about up-and-coming chamber events.</p>
+            <p>Acquire customer referrals: Every day, Itagui chamber receives calls from individuals and businesses looking for referrals of local businesses</p>
+            <p>Bring credibility to your business: You increase the positive perception among consumers and business owners when you’re identified as a member of a chamber of commerce.</p>
+            <p>Networking opportunities: Chambers have numerous committees and serving on one of them provides additional networking opportunities as well as professional leadership development.</p>
+        </div>
         <div class="contenido">
             <form method="GET" action="thanks.html">
                 <div class="form">
                     <fieldset>
                         <ul class="formbox">
-                                        <li>
-                                            <h3>PERSONAL INFORMATION</h3>
-                                        </li> 
+                            <li>
+                                <h3>PERSONAL INFORMATION</h3>
+                            </li> 
                                             
                                         <li>
                                             <label for="name"> Full name <span class="mandentory">*</span>
                                             <input type="text" id="name" name="name" required="" minlength="5" pattern="[A-Za-z">
                                             </label>
-                                        </li>
+                                        </li><br>
                                         <li>
                                             <label for="email">Email
                                             <input type="email" id="email" name="email" placeholder="example@email.com">
                                             </label>
-                                        </li>
+                                        </li><br>
                                         <li>
                                             <label for="tel">Phone number <span class="mandentory">*</span>
                                             <input type="tel" id="tel" name="tel" required="">        
                                             </label>
-                                        </li>
+                                        </li><br>
                         </ul>
                     </fieldset><br>
 
-                <div>
                     <fieldset>
                         <ul class="formbox">
                         <li>
@@ -84,49 +91,72 @@
                             <label for="name"> Business name <span class="mandentory">*</span>
                             <input type="text" id="name" name="name" required="" minlength="5" pattern="[A-Za-z">
                             </label>
-                        </li>
+                        </li><br>
                         <li>
                             <label for="name"> Business address <span class="mandentory">*</span>
                             <input type="text" rows="10" id="name" name="name" required="" minlength="5" pattern="[A-Za-z">
                             </label>
-                        </li>
+                        </li><br>
                         <li>
                             <label for="email">Business Email
                             <input type="email" id="email" name="email" placeholder="example@email.com">
                             </label>
-                        </li>
+                        </li><br>
                         <li>
                             <label id="comment">Business Description
-                            <textarea name="comentarios" rows="10" cols="100" >Write here...</textarea>
+                            <textarea name="comentarios" rows="10" cols="80" >Write here...</textarea>
                             </label>
                         </li>      
                         </ul>
                     </fieldset><br>
  
 
-                    <fieldset>
-                                <li>
-                                <h3> Memebership Level Selection</h3>
-                                </li>   
+                    <fieldset class="box3">
+                        <ul class="formbox">
+                            <li><h3> MEMBERSHIP LEVEL SELECTION</h3></li> 
                                 <li>
                                     <label>What kind of level do you prefer?</label>
-
                                     <label><input type="radio" name="answer" value="yes"> Non-profit </label> 
                                     <label><input type="radio" name="answer" value="maybe"> Bronze </label>
                                     <label><input type="radio" name="answer" value="no"> Silver </label>
                                     <label><input type="radio" name="answer" value="no"> Gold</label>
                                 </li>
-                    
+                    <br>
+                    <div class="cuadros">
+                        <div class="non">
+                            <h3>NON-PROFIT</h3>
+                            <p>Business name and description, website, and social media links on our website directory</p>
+                            <p>Post your events on the Chamber’s online Calendar of Events</p>
+                            <p>Membership certificate, window sticker, and digital Chamber artwork rights</p>
+                            <p>Welcome in Chamber’s e-newsletter and on the Facebook page</p>
+                            <p>Inclusion in Roof Top Drop Program for $45 each quarter</p>
+
+                        </div>
+                        <div class="bronze">
+                            <h3>BRONZE</h3>
+                            <p></p>
+                        </div>
+                        <div class="silver">
+                            <h3>SILVER</h3>
+                            <p></p>
+                        </div>
+                        <div class="gold">
+                            <h3>GOLD</h3>
+                            <p></p>
+                        </div>
+
+                    </div> 
+                    <br> 
+
                                 <li>
                                     <label id="comment">Comments
-                                    <textarea name="comment"></textarea>
+                                    <textarea name="comment" rows="3" cols="80"></textarea>
                                     </label>
                                 </li>       
-                                </ul>
-                    </fieldset><br>
-              
-                                       
-              </div>         
+                        </ul>
+                    </fieldset><br>  
+                </div> 
+
             </form>
         </div> 
 
