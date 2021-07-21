@@ -274,7 +274,7 @@ justify-content:space-around;
 .temp1{
   font-size: 5rem;
 }
-/*itagui gggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+/*------------------itagui---------------------------------------------------*/
 .itagui {
   background: rgb(131, 181, 193);
   font-family: 'Josefin Sans', sans-serif;
@@ -435,7 +435,7 @@ justify-content:space-around;
 .itaeve11, .itaeve12, .itaeve13{
   padding: 1rem;
 }
-/*----join------------------------------------------------------------------*/
+/*------join------------------------------------------------------------------*/
 .joinus {
   background: rgb(131, 181, 193);
   font-family: 'Josefin Sans', sans-serif;
@@ -677,7 +677,6 @@ input, textarea{
   color: white;
   grid-area:footer;
   text-decoration: none;
-
   line-height: 2.5rem;
 }
 .directory .footer2{
